@@ -1,0 +1,48 @@
+@charset "u%f-8";
+#body{
+    background-image: url(../imagenes/fondo.jpg);
+}
+#principal {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cabecera{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#principal #contenido {
+ width: 60%;
+ 
+ 
+}
+#btn_registrar{
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    float:left;
+}
+#btn_cancelar{
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    float:left;
+}
+h2{
+    font-family: corbel;
+    text-decoration: underline;
+    color: #6B2C37;
+}
+#principal #pie{
+    width: 70%;
+    height: 80px;
+    background-image: url(../imagenes/pie_fondo.jpg);
+    float: left;
+    margin-top: 0.3%;
+    margin-left: 15%;
+    text-align: center;
+    color: #FFF;
+}
+
+	

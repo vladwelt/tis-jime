@@ -1,0 +1,126 @@
+@charset "utf-8";
+#principal {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#principal #contenido {
+	padding: 30px;
+	background-color: #FFF;
+	float: left;
+	width: 840px;
+}
+#contenido_usuarios {
+	background-color: #FFF;
+	float: left;
+	width: 900px;
+}
+
+#principal #pie {
+	background-image: url(../imagenes/pie_fondo.jpg);
+	height: 50px;
+	padding-top: 30px;
+	text-align: center;
+	color: #FFF;
+	float: left;
+	width: 900px;
+}
+body {
+	background-image: url(../imagenes/fondo.jpg);
+	background-repeat: repeat;
+}
+#validacion   {
+	width: 300px;
+	float: right;
+	margin-right: 300px;
+	margin-top: 40px;
+}
+#imagen_validacion   {
+	width: 230px;
+	float: left;
+	border: 3px solid #692B36;
+}
+#menu_seguimiento {
+	width: 225px;
+	float: left;
+}
+#menu_grupoEmpresa {
+	width: 225px;
+	float: left;
+}
+
+#noticias_seguimiento {
+	float: left;
+	width: 675px;
+}
+#addActividad {
+	float: left;
+	width: 675px;
+}
+#subirArchivo {
+	float: left;
+	width: 675px;
+}
+
+#noticias_grupoEmpresa {
+	float: left;
+	width: 675px;
+}
+h2 {
+	font-family: Corbel, Arial, Candara;
+	color: #6F2836;
+	text-align: left;
+	text-decoration: underline;
+}
+#calendario_seguimientoGE{
+        font-family: Corbel;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+	float: left;
+	width: 675px;   
+}
+#txtSeguimiento{
+    font-family: Corbel;
+    font-size: 16;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    background-color: whitesmoke;
+    margin-left: 70px;
+    margin-top: 7px;
+    width: 350px;
+    height: 60px;
+}
+#btn_regAvance {
+	float: left;
+        font-weight: bold;
+        font-size: 17;
+        margin-left: 195px;
+        margin-bottom: 20px;
+        width: 100px;
+    height: 30px;
+}
+
+#btn_terminar {
+	float: none;
+        font-weight: bold;
+        font-size: 17;
+        margin-left: 60px;
+        width: 100px;
+    height: 30px;
+}
+#cbox_roles{
+    margin-left: 175px;
+    margin-bottom: 10px;
+    font-size: 15;
+}
+lbl{
+    font-weight: bold;
+    font-family: Corbel;
+    font-size: 17;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}

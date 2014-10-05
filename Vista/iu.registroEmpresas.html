@@ -1,0 +1,79 @@
+<!DOCTYPE html >
+<html>  
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>REGISTRAR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="css/registros.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="imagenes/favicon.ico">
+        <link href="css/registroEmpresa.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="css/campos_correctos.css"/>
+        <script src="js/modernizr.js"></script>
+    </head>
+    <body id="body">
+        <div id="principal">
+            <header id="cabecera"><img src="imagenes/encabezado_logo.jpg" width="50%" height="200" alt="cabecera1" /><img src="imagenes/encabezado2.jpg" width="50%" height="200" alt="encabezado2" /></header>
+            <article id="contenido">
+                <h2>Registro Grupo - Empresas</h2>
+                <form action= "../Controlador/ControladorRegistroEmpresas.php" method="post" enctype="multipart/form-data" name='formularioRegistroEmpresa' id="formularioRegistroEmpresa">
+                    <br>
+                    <fieldset>
+                        <legend>Datos de Cuenta</legend>
+                        <table width="383" border="0">
+                            <tr>
+                                <td width="127" align="right">Usuario:</td>
+                                <td width="168"><input  type="text" name="nombre_usuario" id="nombre_usuario" autofocus /></td>
+
+                            </tr>
+                            <tr>
+                                <td align="right">Contraseña:</td>
+                                <td><input type="password" name="contraseña_usuario1" id="contraseña_usuario1" /></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Repita la Contraseña:</td>
+                                <td><input type="password" name="contraseña_usuario2" id="contraseña_usuario2"  /></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Datos de Perfil</legend>
+                        <table width="460" border="0">
+                            <tr>
+                                <td width="183" align="right">Nombre Largo:</td>
+                                <td width="190"><input type="text" name="nombre_largo_ge" id="nombre_largo_ge" /></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Nombre Corto:</td>
+                                <td><input type="text" name="nombre_corto_ge" id="nombre_corto_ge" /></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Correo electrónico:</td>
+                                <td><input type="email" name="correo_ge" id="correo_ge" /></td>
+                            </tr>
+                            <tr>
+                                <td align="right">direccion:</td>
+                                <td><input type="text" name="direccion_ge" id="direccion_ge" /></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Telefono:</td>
+                                <td><input type="tel" name="telefono_ge" id="telefono_ge"  /></td>
+                            </tr> 
+                        </table>
+                    </fieldset>
+                    <input type="submit" name="btn_registrar" id="btn_registrar" value="Registrar" /><a href="iuIngresar.php"><input type="button" name="btn_cancelar" id="btn_cancelar" value="Cancelar" /></a> 
+                </form>
+            </article>
+            <footer id="pie">
+                <p>  Sistema Apoyo T.I.S. <br> Derechos Reservados Camaleón Software </p>
+
+            </footer>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src='js/validar.js'></script>
+        <script> $(document).foundation();</script>
+    </body>
+</html>

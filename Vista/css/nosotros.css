@@ -1,0 +1,40 @@
+@charset "u%f-8";
+#body{
+    background-image: url(../imagenes/fondo.jpg);
+}
+#principal_nosotros {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cabecera_nosotros{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#menu_nosotros{
+    width: 70%;
+    margin-right: auto;
+    margin_left:auto;
+    padding-left: 15.3%;
+}
+#menu_nosotros a img:hover{
+     border: solid 2px #6B2C37;
+}
+#principal_nosotros #contenido_nosotros {
+    width: 70%;
+    margin-left: 15%;
+    background-color: #FFF;
+    float: left;
+}
+#principal_nosotros #pie_nosotros{
+    width: 70%;
+    height: 80px;
+    background-image: url(../imagenes/pie_fondo.jpg);
+    float: left;
+    margin-top: 0.3%;
+    margin-left: 15%;
+    text-align: center;
+    color: #FFF;
+}

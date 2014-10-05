@@ -1,0 +1,52 @@
+@charset "u%f-8";
+#body{
+    background-image: url(../imagenes/fondo.jpg);
+}
+#principal_actividad {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cabecera_actividad{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#menu_seguimiento {
+	width:21.5%;
+        background-color: #000;
+	float: left;
+}
+#menu_seguimiento img:hover{
+    border: solid 2px #6B2C37;
+}
+#addActividad {
+	width: 75%;
+        float: left;
+}
+ #pie_actividad{
+    width: 70%;
+    height: 80px;
+    background-image: url(../imagenes/pie_fondo.jpg);
+    float: left;
+    margin-top: 0.3%;
+    margin-left: 15%;
+    text-align: center;
+    color: #FFF;
+}
+#contenido_usuarios {
+	background-color: #FFF;
+        margin-left: 15%;
+	float: left;
+	width: 70%;
+}
+#addActividad #tabla__formulario_actividades{
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+#addActividad #fieldsetActividad{
+    margin:1%;
+}
+

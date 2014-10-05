@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+#titulo{
+    
+}
+lbl3{
+    Text-transform: uppercase;
+    text-align: center;
+    font-style: oblique;
+    color: #6B2C37;
+    font-size: 25px;
+}
+lbl2{
+    font-style: oblique;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+lbl4{
+  font-style: oblique;
+    color: whitesmoke;
+    font-size: 15px; 
+}
+

@@ -1,0 +1,51 @@
+/*Css para los mensajes..*/
+.info, .correcto, .ojo, .error, .validation {
+    border: 1px solid;  
+    padding-top: 3px;
+    padding-bottom:3px; 
+    background-position: 10px center;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:18px;
+    text-align:center;
+    width:auto;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('imagenes/info.jpg');
+}
+.correcto {
+
+    color: #000000;
+    font-family: cursive;
+    background-color: #b9b9b9; 
+    width:auto;
+     
+}
+.ojo {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('imagenes/ojo.JPG');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('imagenes/error.jpg');
+}
+
+.num {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    color: #000000;
+}
+.titulos{
+    font-family: Corbel;
+    font-size:12px;
+    text-align: center;
+    font-weight:bold;
+    color: #fff;
+    background-image: url(../imagenes/pie_fondo.jpg)
+   
+}
+

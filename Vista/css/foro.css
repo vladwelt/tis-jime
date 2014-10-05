@@ -1,0 +1,184 @@
+@charset "u%f-8";
+#body{
+    background-image: url(../imagenes/fondo.jpg);
+}
+#principal_foro {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cabecera_foro{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#menu_foro{
+    width: 70%;
+    margin-right: auto;
+    margin_left:auto;
+    padding-left: 15.3%;
+}
+#menu_foro img:hover{
+    border: solid 1px #6B2C37;
+}
+#principal_foro #contenido_foro {
+    width: 70%;
+    margin-left: 15%;
+    background-color: #FFF;
+    float: left;
+}
+ #body #principal_foro #pie_foro{
+    width: 70%;
+    height: 80px;
+    background-image: url(../imagenes/pie_fondo.jpg);
+    float: left;
+    margin-top: 0.3%;
+    margin-left: 15%;
+    text-align: center;
+    color: #FFF;
+}
+/*============================================================FORMULARIO FORO=========================================================*/
+#principal_formulario_foro {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cabecera_formulario_foro{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#menu_formulario_foro{
+    width: 70%;
+    margin-right: auto;
+    margin_left:auto;
+    padding-left: 15.3%;
+}
+#menu_formulario_foro img:hover{
+    border: solid 1px #6B2C37;
+}
+#principal_formulario_foro #contenido_formulario_foro {
+    width: 70%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 15%;
+    background-color: #FFF;
+    float: left;
+}
+ #body #principal_formulario_foro #pie_formulario_foro{
+    width: 70%;
+    height: 80px;
+    background-image: url(../imagenes/pie_fondo.jpg);
+    float: left;
+    margin-top: 0.3%;
+    margin-left: 15%;
+    text-align: center;
+    color: #FFF;
+}
+
+/* CSS PARA TABLAS --> (EVL)*/
+.CSSTableGenerator {
+        font-family: Corbel;
+        margin:0px;padding:0px;
+	width:100%;
+	/*box-shadow: 10px 10px 5px darkturquoise;*/
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.CSSTableGenerator tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.CSSTableGenerator tr:hover td{
+	background-color:#d3e9ff;
+}
+.CSSTableGenerator tr:nth-child(odd){ 
+    background-color:#C6E1E1; 
+}
+.CSSTableGenerator tr:nth-child(even){
+    background-color: #ffffff;
+}
+.CSSTableGenerator td{
+	vertical-align:middle;
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:16px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td{
+	background:-o-linear-gradient(bottom, #4c4c4c 5%, #000000 100%);
+        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c4c4c), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #4c4c4c 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c4c4c", endColorstr="#000000");
+        background: -o-linear-gradient(top,#4c4c4c,000000);
+
+	background-color:#4c4c4c;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:16px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.CSSTableGenerator tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #4c4c4c 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c4c4c), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #4c4c4c 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c4c4c", endColorstr="#000000");	background: -o-linear-gradient(top,#4c4c4c,000000);
+
+	background-color:#4c4c4c;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+/*ASTA AQUI :)*/
+

@@ -1,0 +1,57 @@
+@charset "u%f-8";
+#body{
+    background-image: url(../imagenes/fondo.jpg);
+}
+#principal {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cabecera{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#menu{
+    width: 70%;
+    margin-right: auto;
+    margin_left:auto;
+    padding-left: 15.3%;
+}
+#principal #menu img:hover{
+    border: solid 1px #6B2C37;
+}
+#principal #contenido {
+    width: 70%;
+    margin-left: 15%;
+    background-color: #FFF;
+    float: left;
+}
+#principal #pie{
+    width: 70%;
+    height: 80px;
+    background-image: url(../imagenes/pie_fondo.jpg);
+    float: left;
+    margin-top: 0.3%;
+    margin-left: 15%;
+    text-align: center;
+    color: #FFF;
+}
+#validacion   {
+	width: 30%;
+	float: left;
+        margin-left: 15%;
+	margin-top: 8%;
+}
+#imagen_validacion {
+        float: left;
+        margin-left: 10%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+}  
+
+#imagen_validacion img{
+    border: 5px solid #692B36;
+}
+	

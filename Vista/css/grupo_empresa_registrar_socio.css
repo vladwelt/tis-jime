@@ -1,0 +1,149 @@
+@charset "u%f-8";
+#body{
+    background-image: url(../imagenes/fondo.jpg);
+    font-family: Corbel;
+}
+#principal_grupo_empresa {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cabecera_grupo_empresa{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#contenido_usuarios {
+	background-color: #FFF;
+        margin-left: 15%;
+	float: left;
+	width: 70%;
+      
+}
+#noticias_grupoEmpresa{
+    width: 65%;
+    float: left;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right:5%;
+}
+#menu_grupo_empresa {
+	width:21.5%;
+        background-color: #000;
+	float: left;
+        
+}
+#menu_grupo_empresa img:hover{
+    border: solid 2px #6B2C37;
+}
+
+#pie_grupo_empresa{
+    width: 70%;
+    height: 80px;
+    background-image: url(../imagenes/pie_fondo.jpg);
+    float: left;
+    margin-top: 0.3%;
+    margin-left: 15%;
+    text-align: center;
+    color: #FFF;
+}
+#cbox_dias{
+    width: 100px;
+    height: 25px;
+    margin-top: 3%;
+    margin-left: 6%;
+    
+}
+h2 {
+	font-family: Corbel, Arial, Candara;
+	color: #6F2836;
+	text-align: left;
+	text-decoration: underline;
+}
+#calendario_grupoEmpresa{
+        font-family: Corbel;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+	float: left;
+	width: 675px;   
+}
+#txtEsperado{
+    font-family: Corbel;
+    font-size: 16;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    background-color: whitesmoke;
+    margin-left: 70px;
+    margin-top: 7px;
+    width: 350px;
+    height: 60px;
+}
+#btn_regAvance {
+	float: left;
+        font-weight: bold;
+        font-size: 17;
+        margin-left: 195px;
+        margin-bottom: 20px;
+        width: 100px;
+    height: 30px;
+}
+
+#btn_terminar {
+	float: none;
+        font-weight: bold;
+        font-size: 17;
+        margin-left: 60px;
+        width: 100px;
+    height: 30px;
+}
+#cbox_roles{
+    margin-left: 175px;
+    margin-bottom: 10px;
+    font-size: 15;
+}
+#registrar{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    width: 60%;
+}
+#btn_registrar{
+    margin-top: 0.5%;
+    margin-bottom:0.5%;
+    float:left;
+}
+#btn_cancelar{
+    margin-top: 0.5%;
+    margin-left: 20%;
+    margin-bottom: 0.5%;
+    float:right;
+}
+
+
+lbl{
+    font-weight: bold;
+    font-family: Corbel;
+    font-size: 17;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+lbl2{
+    
+    font-family: Corbel;
+    font-size: 16;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+lbl3{
+    font-weight: bold;
+    color: darkred;
+    font-family: Corbel;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
